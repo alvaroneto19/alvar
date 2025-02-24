@@ -1,0 +1,39 @@
+{
+  "expo": {
+    "name": "projeto-react-native-clean",
+    "slug": "projeto-react-native-clean",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "googleServicesFile": "./google-services.json",
+      "newArchEnabled": true,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      },
+      "package": "com.ifpe.agrogestao"
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "@react-native-firebase/app",
+      "@react-native-firebase/perf"
+    ],
+    "extra": {
+      "eas": {
+        "projectId": "01796d44-e71a-4a38-8c4c-d1cca7f2aed7"
+      }
+    }
+  }
+}
